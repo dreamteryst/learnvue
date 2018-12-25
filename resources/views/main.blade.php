@@ -8,9 +8,7 @@
         <link href="/css/app.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <div id="app">
-            <example-component></example-component>
-        </div>
+        <div id="app"><Main></Main></div>
         <script src="/js/app.js"></script>
     </body>
 </html>
