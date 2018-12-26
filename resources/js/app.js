@@ -12,6 +12,8 @@ import Main from './components/Main'
 import Home from './components/Home'
 import Login from './components/Login'
 
+import store from './store'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -32,5 +34,6 @@ const router = new VueRouter({
 
 new Vue({
     router,
+    store,
     ...Main
 }).$mount('#app')
