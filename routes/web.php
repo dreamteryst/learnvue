@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('/users', 'UserController@allUsers');
+
 Route::get('/{any}', function () {
     return view('main');
 })->where('any', '.*');
